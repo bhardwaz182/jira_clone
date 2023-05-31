@@ -1,0 +1,56 @@
+.create-task-input{
+    width: 100%;
+}
+
+/* CSS for the Form component */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .form-container table {
+    width: 100%;
+  }
+  
+  .form-container label {
+    font-weight: bold;
+  }
+  
+  .form-container input,
+  .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container button[type="button"] {
+    background-color: rgb(216, 16, 16);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button[type="button"]:hover {
+    background-color: rgb(176, 48, 48);
+  }
